@@ -24,7 +24,7 @@ Name           DSLIP  Description                                  Info
 -------------  -----  -------------------------------------------- -----
 News::Collabra bdpOg  iPlanet Collabra administrative functions    NATE
 
-QUICK START GUIDE:
+INSTALLATION:
     News::Collabra uses the following modules/distributions.
 
 	LWP::UserAgent	 - required, for communication with the admin server
@@ -55,10 +55,12 @@ COMPATIBILITY:
     This module was developed on Solaris 2.6 with Collabra 3.52.
 
 TODO:
-    Make a makefile
-    Complete refactoring of communications code
-    Complete migration of communications code from sockets to lwp agents
-    Better support for ACL creation, modification and removal.
+    Make a makefile [Done]
+    Complete refactoring of communications code [Done]
+    Complete migration of communications code from sockets to lwp agents [Done]
+    Better support for ACL creation, modification and removal [80% there]
+    Improved return values
+    Improved robustness (handling unexpected input/output)
 
 BUGS:
     Bug reports can be sent to the author via his CPAN address.
